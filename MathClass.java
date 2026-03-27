@@ -23,6 +23,7 @@ class MathClass{
         c =Math.sqrt(Math.pow(a,2)+ Math.pow(b,2));
         System.out.println("c = " + c);
 
+        System.out.print("enter radius: ");
         double r = s.nextDouble();
         double circumference = 2 * Math.PI * r;
         System.out.println("circumference = " + circumference);
